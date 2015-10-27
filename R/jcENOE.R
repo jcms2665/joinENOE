@@ -26,3 +26,4 @@ jcENOE<-function (coe1,coe2,u){
   message("[!]Se uso la llave: ",paste(metlist[1:w-1], collapse = " + "))  
 }
 
+#To check 
