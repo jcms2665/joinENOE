@@ -23,7 +23,9 @@ jcENOE<-function (coe1,coe2,u){
     w=w+1
   }
   assign("R",data.frame(merge(coe1,subset(coe2, select=c(metlist[1:w-1],u)),by=metlist[1:w-1],all.x=TRUE)),envir = .GlobalEnv)
-  message("[!]Se uso la llave: ",paste(metlist[1:w-1], collapse = " + "))  
+  message("[!]Llave: ",paste(metlist[1:w-1], collapse = " + "))  
+  message("[!]Se agregó correctamente la variable: ",u)  
+
 }
 
 
