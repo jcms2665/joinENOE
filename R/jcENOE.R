@@ -28,13 +28,3 @@ jcENOE<-function (coe1,coe2,u){
 
 }
 
-
-
-#To check 
-
-#To check 
-
-#To check 
-
-
-
