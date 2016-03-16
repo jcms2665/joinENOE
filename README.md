@@ -72,13 +72,13 @@ To install the package, it is necessary the following:
               install.packages("devtools")
     ```
 
-+ Paso 2. Load the  _devtools_ package
++ Step 2. Load the  _devtools_ package
 
     ```
               library(devtools)
     ```
 
-+ Paso 3. Install the package **joinENOE**
++ Step 3. Install the package **joinENOE**
 
     ```
               install_github("jcms2665/joinENOE")
